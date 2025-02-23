@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://nesxp.com.br/
+Host: https://codepit.com.br/
 
 # Sitemaps
-Sitemap: https://nesxp.com.br/sitemap.xml
+Sitemap: https://codepit.com.br/sitemap.xml

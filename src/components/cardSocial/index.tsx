@@ -49,7 +49,7 @@ const CardSocial = () => {
             <div className="flex justify-between relative z-2">
               <div className="w-[5rem] h-[5rem] bg-blac  rounded-full shadow-md">
                 <Image
-                  className="w-full h-full rounded-full object-cover"
+                  className="w-full h-full rounded-full object-contain"
                   src={social.logo}
                   alt="LogoDev"
                   width={1176}

@@ -5,7 +5,7 @@ import ResultsTag from '@/components/resultsTag';
 import ToTop from '@/components/toTop';
 
 export const metadata = {
-  title: 'Projetos | Nesxp',
+  title: 'Projetos | Codepit',
 };
 
 const Projects = () => {

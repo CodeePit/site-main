@@ -98,7 +98,7 @@ const HeaderAnimationProcess = () => {
         animate="visible"
       >
         <HeroText.Title className="max-2xl:max-w-[40rem] max-2xl:text-[2.5rem] max-xl:text-[2rem] max-lg:text-[3rem] max-sm:text-[1.5rem]">
-          Nesxp Web <br /> & Mobile
+          Codepit Web <br /> & Mobile
         </HeroText.Title>
         <HeroText.SubTitle>
           Seja desenvolvimento web ou mobile nós encontramos e desenvolvemos a solução
@@ -108,11 +108,11 @@ const HeaderAnimationProcess = () => {
         <HeroText.Buttons>
           <Button
             fill
-            href="https://wa.me/5515988045279?text=Ol%C3%A1%2C+vim+do+site+Nesxp."
+            href="https://wa.me/5515988045279?text=Ol%C3%A1%2C+vim+do+site+Codepit."
           >
             Nossos serviços
           </Button>
-          <Button href="https://wa.me/5515988045279?text=Ol%C3%A1%2C+vim+do+site+Nesxp.">
+          <Button href="https://wa.me/5515988045279?text=Ol%C3%A1%2C+vim+do+site+Codepit.">
             Obter Uma Consulta Gratis
           </Button>
         </HeroText.Buttons>

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Admin | Nesxp',
+  title: 'Admin | Codepit',
 };
 
 const Admin = () => {

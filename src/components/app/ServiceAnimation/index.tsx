@@ -55,7 +55,7 @@ const ServiceAnimation = () => {
                   </Card.Text>
                 </div>
                 <Card.Button
-                  href="https://wa.me/5515988045279?text=Ol%C3%A1%2C+vim+do+site+Nesxp."
+                  href="https://wa.me/5515988045279?text=Ol%C3%A1%2C+vim+do+site+Codepit."
                   className="w-full rounded-lg card-button p-[1rem] border-[1px] transition-color duration-500 border-[#6d6d6f] text-[#6d6d6f] flex items-center justify-center gap-[.7rem] hover:font-bold hover:text-black"
                 >
                   Veja Mais

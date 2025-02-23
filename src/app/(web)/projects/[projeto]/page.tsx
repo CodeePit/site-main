@@ -12,7 +12,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const validHash = ProjectsArray.find((project) => project.hash === params.projeto);
   return {
-    title: `${validHash?.title} | Nesxp`,
+    title: `${validHash?.title} | Codepit`,
   };
 }
 
