@@ -14,4 +14,4 @@ export const Toast = () => (
     toastClassName="!rounded-none"
     theme="light"
   />
-);
+)
