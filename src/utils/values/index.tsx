@@ -9,7 +9,8 @@ export const ValuesArray: iValues[] = [
   {
     id: 1,
     title: 'Eficiência',
-    label: 'Nós da Codepit acreditamos que a eficiencia é uma questão de comprometimento.',
+    label:
+      'Nós da Codepit acreditamos que a eficiencia é uma questão de comprometimento.',
     icon: Eficiencia,
   },
   {
