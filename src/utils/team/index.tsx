@@ -1,7 +1,8 @@
-import { iTeams } from '@/types/team';
-import Thainara from '@/assets/img/team/thainara2.jpg';
 import Afonso from '@/assets/img/team/afonso2.jpg';
 import Guilherme from '@/assets/img/team/guilherme.png';
+import Juliano from '@/assets/img/team/juliano.jpeg';
+import Thainara from '@/assets/img/team/thainara2.jpg';
+import { iTeams } from '@/types/team';
 
 export const TeamArray: iTeams[] = [
   {
@@ -26,6 +27,16 @@ export const TeamArray: iTeams[] = [
     name: 'Guilheme Brogio',
     carer: 'CTO & FullStack Development',
     img: Guilherme,
+    linkedin: 'https://www.linkedin.com/in/gbrogio/',
     github: 'https://github.com/gbrogio',
+  },
+  {
+    id: 4,
+    name: 'Juliano Marques',
+    carer: 'FullStack Development',
+    img: Juliano,
+    linkedin: 'https://www.linkedin.com/in/gbrogio/',
+    instagram: 'https://www.instagram.com/julianthemarques/',
+    github: 'https://github.com/julianthemarques',
   },
 ];

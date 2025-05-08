@@ -1,12 +1,12 @@
 'use client';
 import InstagramIcon from '@/assets/svg/Instagram';
+import LinkedinIcon from '@/assets/svg/Linkedin';
 import GitHubIcon from '@/assets/svg/github';
 import { TeamArray } from '@/utils/team';
 import clsx from 'clsx';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
-import LinkedinIcon from '@/assets/svg/Linkedin';
 
 const Cards = () => {
   return (
@@ -14,7 +14,7 @@ const Cards = () => {
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.2 }}
-      className="w-full gap-[2rem] justify-center grid grid-cols-3 max-md:gris-cols-2 max-sm:grid-cols-1 max-sm:w-[80%]"
+      className="grid grid-cols-2 gap-8 mx-auto justify-items-center max-sm:grid-cols-1"
     >
       {TeamArray.map((team) => {
         const variants = {
