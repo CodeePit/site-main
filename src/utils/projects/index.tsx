@@ -1,28 +1,26 @@
-import { iProjects } from '@/types/projects';
-import Authentic from '@/assets/img/projects/authenticImg.png';
-import TratyVet from '@/assets/img/projects/tratyvetimg.png';
-import Prime from '@/assets/img/projects/prime.png';
-import Domus from '@/assets/img/projects/domus.png';
-import Vista from '@/assets/img/projects/vista.png';
-import Cardapio from '@/assets/img/projects/cardapio.png';
-import Haia from '@/assets/img/projects/haia.png';
 import Amac from '@/assets/img/projects/amac.png';
+import Authentic from '@/assets/img/projects/authenticImg.png';
+import Cardapio from '@/assets/img/projects/cardapio.png';
+import Domus from '@/assets/img/projects/domus.png';
+import Essencial from '@/assets/img/projects/essencial.png';
 import GRM from '@/assets/img/projects/grm.png';
+import Haia from '@/assets/img/projects/haia.png';
 import Keypay from '@/assets/img/projects/keypay.png';
-import Material from '@/assets/img/stacks/maetrial.png';
-import Next from '@/assets/img/stacks/NEXT.png';
-import React from '@/assets/img/stacks/react.png';
-import SupaBase from '@/assets/img/stacks/supabase.png';
-import Stripe from '@/assets/img/stacks/stripe.jpeg';
-import Ts from '@/assets/img/stacks/ts.png';
-import Tailwind from '@/assets/img/stacks/tailwind.png';
-import Styled from '@/assets/img/stacks/styled.png';
-import Keep from '@/assets/img/projects/keep.png';
+import Prime from '@/assets/img/projects/prime.png';
 import sabrina from '@/assets/img/projects/sabrina.png';
 import TratyEcommerce from '@/assets/img/projects/tratyjpg.jpg';
-import Essencial from '@/assets/img/projects/essencial.png';
-import Deal from '@/assets/img/deal.png';
-import Ghost from '@/assets/img/projects/ghost.png';
+import TratyVet from '@/assets/img/projects/tratyvetimg.png';
+import Vista from '@/assets/img/projects/vista.png';
+import Sportex from '@/assets/img/sportex.png';
+import Material from '@/assets/img/stacks/maetrial.png';
+import Motion from '@/assets/img/stacks/motion.jpeg';
+import Next from '@/assets/img/stacks/NEXT.png';
+import React from '@/assets/img/stacks/react.png';
+import Styled from '@/assets/img/stacks/styled.png';
+import SupaBase from '@/assets/img/stacks/supabase.png';
+import Tailwind from '@/assets/img/stacks/tailwind.png';
+import Ts from '@/assets/img/stacks/ts.png';
+import { iProjects } from '@/types/projects';
 
 export const ProjectsArray: iProjects[] = [
   {
@@ -66,7 +64,7 @@ export const ProjectsArray: iProjects[] = [
       'TratyVet é um WebSite completo com a apresentação da empresa e dos produtos, com um sistema de cadastro como um CMS deixando a empresa com o poder de cadastrar, remover e atualizar produtos. Possibilitando também uma busca dos distribuidores através do cep ou cidade do cliente.',
     img: TratyVet,
     color: '#ffd4d4',
-    order: 7,
+    order: 6,
     client: 'TratyVet',
     duration: 120,
     commit: 25,
@@ -413,34 +411,34 @@ export const ProjectsArray: iProjects[] = [
       },
     ],
   },
-  {
-    id: 12,
-    title: 'Rodrigues KeepClean',
-    type: 'WebSite',
-    comment:
-      'Rogrigues KeepClean é uma página estrangueira desenvolvida para uma empresa de limpeza, trazendo um design de limpeza e organização.',
-    img: Keep,
-    color: '#8cffba79',
-    order: 15,
-    client: 'Rodrigues',
-    duration: 80,
-    commit: 100,
-    link: 'https://www.rodrigueskeepclean.com/',
-    bgColor: 'linear-gradient(111.23deg, #f3f9da 9.95%, #f0d5ff 85.17%)',
-    hash: 'fghr80de146751221e1765ghfkbea876',
-    stacks: [
-      {
-        id: 1,
-        name: 'NextJs',
-        icon: Next,
-      },
-      {
-        id: 2,
-        name: 'TailWind CSS',
-        icon: Tailwind,
-      },
-    ],
-  },
+  // {
+  //   id: 12,
+  //   title: 'Rodrigues KeepClean',
+  //   type: 'WebSite',
+  //   comment:
+  //     'Rogrigues KeepClean é uma página estrangueira desenvolvida para uma empresa de limpeza, trazendo um design de limpeza e organização.',
+  //   img: Keep,
+  //   color: '#8cffba79',
+  //   order: 15,
+  //   client: 'Rodrigues',
+  //   duration: 80,
+  //   commit: 100,
+  //   link: 'https://www.rodrigueskeepclean.com/',
+  //   bgColor: 'linear-gradient(111.23deg, #f3f9da 9.95%, #f0d5ff 85.17%)',
+  //   hash: 'fghr80de146751221e1765ghfkbea876',
+  //   stacks: [
+  //     {
+  //       id: 1,
+  //       name: 'NextJs',
+  //       icon: Next,
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailWind CSS',
+  //       icon: Tailwind,
+  //     },
+  //   ],
+  // },
   {
     id: 13,
     title: 'Sabrina M. Cunha',
@@ -503,20 +501,19 @@ export const ProjectsArray: iProjects[] = [
     ],
   },
   {
-    id: 15,
-    title: 'Deal Empreendimentos',
+    id: 12,
+    title: 'Sportex',
     type: 'WebSite',
-    comment:
-      'Deal Empreendimentos é um site com um CMS que edita e cadastra a página como o cliente deseja.',
-    img: Deal,
-    color: '#8ce6ff79',
-    order: 6,
-    client: 'CoreAg',
+    comment: 'Um sistema que conecta profissionais e treinadores.',
+    img: Sportex,
+    color: '#ff6600',
+    order: 5,
+    client: 'Sportex',
     duration: 80,
     commit: 100,
-    link: 'https://www.dealempreendimentos.com.br/',
-    bgColor: 'linear-gradient(to left top, #e9a6f4, #f991d8, #ff7eb5, #ff6e8e, #fd6565)',
-    hash: 'kh1g80ae837241124e1539ghfkrty876',
+    link: 'https://www.sportex.app/',
+    bgColor: 'linear-gradient(to left top, #b39d9d, #e9ad3e, #f3ac50, #f1e8af, #ff6600)',
+    hash: 'jd2s80ae837241124e1539ghfkrty341',
     stacks: [
       {
         id: 1,
@@ -530,47 +527,47 @@ export const ProjectsArray: iProjects[] = [
       },
       {
         id: 3,
-        name: 'Supabase',
-        icon: SupaBase,
+        name: 'Motion js',
+        icon: Motion,
       },
     ],
   },
-  {
-    id: 16,
-    title: 'Ghosty Saas',
-    type: 'Saas',
-    comment:
-      'GHOSTY é uma plataforma SaaS projetada para proteger suas páginas e conteúdos contra ataques maliciosos. Com tecnologia avançada de segurança, ela monitora, detecta e bloqueia ameaças em tempo real, garantindo que suas campanhas e sites permaneçam seguros e operando sem interrupções.',
-    img: Ghost,
-    color: '#8F9496',
-    order: 5,
-    client: 'Ghosty',
-    duration: 140,
-    commit: 250,
-    link: 'https://www.ghosty.me/',
-    bgColor: 'linear-gradient(to top, #0e8dc4, #4490b7, #6192ab, #7993a0, #8f9496)',
-    hash: 'dm1g36ae857941124e1539ghfkrty876',
-    stacks: [
-      {
-        id: 1,
-        name: 'NextJs',
-        icon: Next,
-      },
-      {
-        id: 2,
-        name: 'TailWind CSS',
-        icon: Tailwind,
-      },
-      {
-        id: 3,
-        name: 'Supabase',
-        icon: SupaBase,
-      },
-      {
-        id: 4,
-        name: 'Stripe',
-        icon: Stripe,
-      },
-    ],
-  },
+  // {
+  //   id: 16,
+  //   title: 'Ghosty Saas',
+  //   type: 'Saas',
+  //   comment:
+  //     'GHOSTY é uma plataforma SaaS projetada para proteger suas páginas e conteúdos contra ataques maliciosos. Com tecnologia avançada de segurança, ela monitora, detecta e bloqueia ameaças em tempo real, garantindo que suas campanhas e sites permaneçam seguros e operando sem interrupções.',
+  //   img: Ghost,
+  //   color: '#8F9496',
+  //   order: 5,
+  //   client: 'Ghosty',
+  //   duration: 140,
+  //   commit: 250,
+  //   link: 'https://www.ghosty.me/',
+  //   bgColor: 'linear-gradient(to top, #0e8dc4, #4490b7, #6192ab, #7993a0, #8f9496)',
+  //   hash: 'dm1g36ae857941124e1539ghfkrty876',
+  //   stacks: [
+  //     {
+  //       id: 1,
+  //       name: 'NextJs',
+  //       icon: Next,
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailWind CSS',
+  //       icon: Tailwind,
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'Supabase',
+  //       icon: SupaBase,
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Stripe',
+  //       icon: Stripe,
+  //     },
+  //   ],
+  // },
 ];
