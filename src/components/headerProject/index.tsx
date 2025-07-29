@@ -1,9 +1,10 @@
 'use client';
-import { iProjects } from '@/types/projects';
-import Image from 'next/image';
-import Button from '@/components/button';
 import IconProx from '@/assets/svg/iconProx';
+import Button from '@/components/button';
+import { iProjects } from '@/types/projects';
+import { cn } from '@/utils/cn';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const HeaderProject = ({ projeto }: { projeto: iProjects }) => {
   return (
@@ -69,7 +70,17 @@ const HeaderProject = ({ projeto }: { projeto: iProjects }) => {
           className="flex flex-col pb-[2rem] gap-[1.5rem]  max-sm:items-center"
         >
           <div className="max-sm:text-center">
-            <span className="font-semibold">{projeto.type}</span>
+            <div className="flex items-center gap-4 max-sm:flex-col-reverse">
+              <span className="font-semibold">{projeto.type}</span>
+              <span
+                className={cn(
+                  'bg-green-500 px-2 py-1 rounded-full text-white text-xs uppercase font-bold',
+                  projeto.badge === 'Em desenvolvimento' && 'bg-yellow-500',
+                )}
+              >
+                {projeto.badge}
+              </span>
+            </div>
             <h1 className="font-extrabold text-[2rem]">{projeto.title}</h1>
             <span className="text-secondary_black-950/70">{projeto.comment}</span>
           </div>

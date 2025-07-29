@@ -1,12 +1,12 @@
 'use client';
-import Next from '@/assets/svg/next';
-import Image, { StaticImageData } from 'next/image';
-import { useEffect, useState } from 'react';
 import TratyVet from '@/assets/img/projects/tratyjpg.jpg';
+import Next from '@/assets/svg/next';
 import { ProjectsArray } from '@/utils/projects';
 import clsx from 'clsx';
 import { motion } from 'framer-motion';
+import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const ProjectCLient = () => {
   const [ImageAtual, setImageAtual] = useState<StaticImageData>(TratyVet);
@@ -68,9 +68,9 @@ const ProjectCLient = () => {
                     className="text-white/50 hover:underline group font-semibold text-[1.2rem] max-sm:text-[1rem]"
                   >
                     {project.title}{' '}
-                    <span className="group-hover:ml-4 !no-underline group-hover:no-underline none transition-all">
+                    {/* <span className="group-hover:ml-4 !no-underline group-hover:no-underline none transition-all">
                       &#x279C;
-                    </span>
+                    </span> */}
                   </Link>
                   <span className="opacity-0 h-0 text-[white]/70 font-medium max-sm:text-[.9rem]  elipses2 max-h-[4rem]">
                     {project.comment}

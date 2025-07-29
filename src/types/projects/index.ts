@@ -15,5 +15,6 @@ export interface iProjects {
   commit: number;
   bgColor: string;
   link?: string;
+  badge?: string;
   stacks: Stacks[];
 }
