@@ -4,7 +4,7 @@ export const ResultsTagArray: iResults[] = [
   {
     id: 1,
     color: '#5956E8',
-    number: '30',
+    number: '34',
     text: (
       <span className="uppercase text-[.7rem] text-white/50 font-bold max-sm:text-[.6rem]">
         Clientes <br /> Satisfeitos
@@ -14,7 +14,7 @@ export const ResultsTagArray: iResults[] = [
   {
     id: 2,
     color: '#ff2323',
-    number: '23',
+    number: '35',
     text: (
       <span className="uppercase text-[.7rem] text-white/50 font-bold max-sm:text-[.6rem]">
         Projetos <br /> Completos
