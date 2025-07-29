@@ -33,7 +33,7 @@ const ProcessSectionPage = () => {
                 </HeaderSection.Path>
                 <HeaderSection.Title asChild>
                   <h1 className="text-[1.4rem] text-secondary_black-950 font-medium leading-tight max-md:text-[1rem]">
-                    Processos ! Uma medologia para o sucesso
+                    Processos, Uma metodologia para o sucesso!
                   </h1>
                 </HeaderSection.Title>
               </div>

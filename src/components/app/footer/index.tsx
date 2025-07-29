@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="flex flex-col mt-[1rem] gap-[.25rem] max-lg:items-center max-lg:text-center">
               <h1 className="font-bold text-[1.3rem] text-white">Entre em contato</h1>
               <span className="font-medium text-[1rem] text-white/50">
-                Estamos esperando pelo seu contato nesse momento!
+                Estamos esperando pelo seu contato neste momento!
               </span>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <Phone /> Nosso número
               </h1>
               <span className="w-fit py-[1rem] px-[2rem] text-[#FFDC60] font-bold text-[1.2rem] rounded-lg bg-[#3C3C45] flex justify-center">
-                +55 15 98804 5279
+                +55 (15) 988040-5279
               </span>
               <span className="text-white/50 font-medium text-[.8rem]">
                 comercial@Codepit.com.br

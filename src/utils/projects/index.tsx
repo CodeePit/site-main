@@ -28,7 +28,7 @@ export const ProjectsArray: iProjects[] = [
     title: 'Authentic Site',
     type: 'Landing Page',
     comment:
-      'Authentic é um site criado para apresentação do empreendimento ajudando a construtora a conseguir uma capitação de Leads. Tendo a fotos do empreendimento as plantas e um texto de apresentação da construtora e do empreendimento.',
+      'Authentic é um site criado para apresentação do empreendimento ajudando a construtora a conseguir uma captação de Leads. Tendo a fotos do empreendimento as plantas e um texto de apresentação da construtora e do empreendimento.',
     img: Authentic,
     color: '#E9F7FF',
     order: 9,
@@ -170,7 +170,7 @@ export const ProjectsArray: iProjects[] = [
     title: 'Vista Jataí',
     type: 'Landing Page',
     comment:
-      'Vista Jataí é um site criado para apresentação do empreendimento ajudando a construtora a conseguir uma capitação de Leads. Tendo a fotos do empreendimento as plantas e um texto de apresentação da construtora e do empreendimento.',
+      'Vista Jataí é um site criado para apresentação do empreendimento ajudando a construtora a conseguir uma captação de Leads. Tendo a fotos do empreendimento as plantas e um texto de apresentação da construtora e do empreendimento.',
     img: Vista,
     color: '#e7caff',
     order: 10,
@@ -251,7 +251,7 @@ export const ProjectsArray: iProjects[] = [
     title: 'Haia Sorocaba',
     type: 'Landing Page',
     comment:
-      'Haia Sorocaba é um site criado para apresentação do empreendimento ajudando a construtora a conseguir uma capitação de Leads. Tendo a fotos do empreendimento as plantas e um texto de apresentação da construtora e do empreendimento,',
+      'Haia Sorocaba é um site criado para apresentação do empreendimento ajudando a construtora a conseguir uma captação de Leads. Tendo a fotos do empreendimento as plantas e um texto de apresentação da construtora e do empreendimento,',
     img: Haia,
     color: '#caffec',
     order: 8,

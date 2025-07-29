@@ -1,10 +1,10 @@
 import { iService } from '@/types/services';
+import Celular from '../../assets/img/iconsService/celular.png';
+import Co from '../../assets/img/iconsService/ceo.png';
+import Dev from '../../assets/img/iconsService/dev.png';
 import LpIcon from '../../assets/img/iconsService/LP.png';
 import MegaFone from '../../assets/img/iconsService/megafone.png';
-import Co from '../../assets/img/iconsService/ceo.png';
 import Trafego from '../../assets/img/iconsService/trafego.png';
-import Dev from '../../assets/img/iconsService/dev.png';
-import Celular from '../../assets/img/iconsService/celular.png';
 
 export const ServicesUtils: iService[] = [
   {
@@ -28,7 +28,7 @@ export const ServicesUtils: iService[] = [
   {
     id: 4,
     label: 'Page Development',
-    text: 'Desenvolvimento de páginas únicas e performáticas para capitação de leads rápidos.',
+    text: 'Desenvolvimento de páginas únicas e performáticas para captação de leads rápidos.',
     image: LpIcon,
   },
   {

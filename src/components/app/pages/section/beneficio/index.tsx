@@ -82,7 +82,7 @@ const Beneficios = () => {
               </div>
             </div>
             <span className="ml-[6rem] mt-[1rem] text-[1rem] text-secondary_black-950/60 max-sm:text-[.8rem]">
-              Melhores análises e resultados de quem esta acessando a sua página através
+              Melhores análises e resultados de quem está acessando a sua página através
               da gestão de trafego.
             </span>
           </div>
