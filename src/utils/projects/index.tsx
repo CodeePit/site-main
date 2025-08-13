@@ -4,8 +4,6 @@ import Cardapio from '@/assets/img/projects/cardapio.png';
 import chatIA from '@/assets/img/projects/chatia.png';
 import Domus from '@/assets/img/projects/domus.png';
 import Essencial from '@/assets/img/projects/essencial.png';
-import Ghost from '@/assets/img/projects/ghost.png';
-import ghostspay from '@/assets/img/projects/ghostspay.jpeg';
 import GRM from '@/assets/img/projects/grm.png';
 import Haia from '@/assets/img/projects/haia.png';
 import Keypay from '@/assets/img/projects/keypay.png';
